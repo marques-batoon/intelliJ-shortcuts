@@ -10,7 +10,7 @@ const Layout = (props) => {
     return  (
         <React.Fragment>
             <nav>
-                <Link to="/"><span className="nav-header"><h1>日本語402</h1></span></Link>
+                <Link to="/"><span className="nav-header"><h1>ISC314</h1></span></Link>
             </nav>
             <div className = "container">
                 {props.children}

@@ -24,13 +24,13 @@ class Home extends React.Component {
         return(
             <React.Fragment>
                 <h1 className="text-center">全ての単語と漢字</h1>
-
                 <div className="homeButtonContainer">
-                    <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="tango" className="btn from-left">単語</button></Link>
-                    <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="kanji-kaku" className="btn from-left">書き漢字</button></Link>
+                    <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="tango" className="btn from-left">shortcuts</button></Link>
+                    {/*
+                    <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="kanji-kaku" className="btn from-left">書き漢字</button></Link> */}
                     <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="kanji-yomerebaii" className="btn from-right">読み漢字</button></Link>
                 </div>
-
+                {/*
                 <hr></hr>
 
                 <h2 className="text-center">ユニットで分かれた単語と漢字</h2>
@@ -92,7 +92,7 @@ class Home extends React.Component {
                 <div className="homeButtonContainer">
                     <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="u4-tango-1_sankou" className="btn from-left">U4_1<br></br>参考にする<br></br>単語</button></Link>
                 </div>
-
+        */}
                 
 
             </React.Fragment>
