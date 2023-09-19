@@ -23,12 +23,11 @@ class Home extends React.Component {
         const{ kanjiSetClick } = this.state;
         return(
             <React.Fragment>
-                <h1 className="text-center">全ての単語と漢字</h1>
                 <div className="homeButtonContainer">
                     <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="tango" className="btn from-left">shortcuts</button></Link>
                     {/*
                     <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="kanji-kaku" className="btn from-left">書き漢字</button></Link> */}
-                    <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="kanji-yomerebaii" className="btn from-right">読み漢字</button></Link>
+                    <Link to={`/kanji?set=${kanjiSetClick}`}><button onClick={this.clickedKanjiSet} value="kanji-yomerebaii" className="btn from-right">actions</button></Link>
                 </div>
                 {/*
                 <hr></hr>

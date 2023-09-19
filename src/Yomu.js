@@ -558,10 +558,6 @@ class Yomu extends React.Component {
                     <h1 className="kanji">{characters[num]}</h1>
                 </div>
                 <div className="center">
-                    <button className={yomikataButton} onClick={this.yomikata}>読み方</button>
-                    <h2 className={yomikataClass}> {setChooser()}</h2>
-                </div>
-                <div className="center">
                     <button onClick={this.imi} className={imiButton}>意味</button>
                     <h3 className={imiClass}>{formSet()}</h3>
                 </div>
